@@ -54,6 +54,9 @@ function checkEmail(email) {
   let flagDomain = false
   let strDomain = ''
   for (let i = 0; i < email.length; i++){
+    if(email[i] === ' '){
+      return false
+    }
     if(email[i] === '@' && i > 3){
       flagLength = true
     }
