@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trip</title>
+  <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <img id="logo" src="img/logo.png" width="55px" />
+    <nav>
+      <ul>
+        <a href="#"><li>Home</li></a>
+        <a href="#category"><li>Category</li></a>
+        <a href="#testimoni"><li>Testimonial</li></a>
+        <a href="#findUs"><li>Find Us</li></a>
+        <a href="#login"><li>Login</li></a>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Main Banner -->
+    <div class="container">
+      <div class="content">
+        <h1><b>Explore The World</b></h1>
+        <h3><b>Then You Can See That You Haven't Seen</b></h3>
+        <button><a href="#login">Get Started</a> </button>
+      </div>
+    </div>
+
+    <!-- Category -->
+    <div class="category" id="category">
+      <h1 class="judul">Category</h1>
+      <div class="container-isi-category">
+        <div class="isi-category java">
+          <h1>Java</h1>
+          <button class="btn-category"> View Details</button>
+        </div>
+        <div class="isi-category kalimantan">
+          <h1>Kalimantan</h1>
+          <button class="btn-category"> View Details</button>
+        </div>
+        <div class="isi-category bali">
+          <h1>Bali</h1>
+          <button class="btn-category"> View Details</button>
+        </div>
+        <div class="isi-category sulawesi">
+          <h1>Sulawesi</h1>
+          <button class="btn-category"> View Details</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Create Account -->
+    <div class="login" id="login">
+      <h1>Create Account, Before Going on Vacation!</h1>
+      <div class="card">
+        <form action="#" method="GET">
+          <div class="dataUser">
+            <label for="name">Full Name: </label><br>
+            <input type="text" id='name' placeholder="Input your Full Name">
+          </div>
+          <div class="dataUser">
+            <label for="email">Email: </label><br>
+            <input type="email" id='email' placeholder="Input your Email">
+          </div>
+          <div class="dataUser">
+            <label for="password"> Password: </label><br>
+            <input type="password" id="password" placeholder="Input your Password">
+          </div>
+          <button type="submit">Create</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <h4>Copyright &copy; 2020 by TripLit</h4>
+  </footer>
+</body>
+</html>
