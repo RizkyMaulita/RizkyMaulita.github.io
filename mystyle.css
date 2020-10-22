@@ -153,7 +153,8 @@ h1{
 .btn-category:hover{
   background-color: #70adb5;
 }
-/* ----login----- */
+
+/* ---- Login ----- */
 .login{
   margin-top: 550px;
   color: #0f3057;
@@ -184,7 +185,10 @@ h1{
 .card button:hover{
   background-color: #ffae7e;
 }
-
+#link{
+  padding-top: 80px;
+  padding-left: 100px; 
+}
 
 /* ----Footer----- */
 footer{
