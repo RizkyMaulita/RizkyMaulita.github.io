@@ -1,0 +1,40 @@
+.btn-order{
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  background-color: #70adb5;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: 500;
+  float: right;
+}
+.btn-order:hover{
+  background-color: #ffae7e;
+}
+.tiket{
+  margin-top: 100px;
+  color: #0f3057;
+}
+.tiket h1{
+  text-align: center;
+}
+.tiket h3{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #26558f !important;
+}
+.tiket select{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  height: 35px;
+  width: 250px;
+  font-size: 15px;
+}
+.tiket input{
+  margin-bottom: 10px;
+}
+#total{
+  /* padding-top: 15px; */
+  padding-left: 100px; 
+}

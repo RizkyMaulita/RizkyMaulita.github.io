@@ -146,12 +146,16 @@ h1{
   justify-content: center;
   background-color: #ffae7e;
   border-radius: 15px;
-  color: white;
+  /* color: white; */
   font-weight: 500;
   margin-bottom: 500px;
 }
 .btn-category:hover{
   background-color: #70adb5;
+}
+.isi-category a{
+  text-decoration: none;
+  color: white !important;
 }
 
 /* ---- Login ----- */
