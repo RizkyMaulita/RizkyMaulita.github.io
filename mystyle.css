@@ -110,7 +110,7 @@ ul li:hover{
 .isi-category h1{
   position: absolute;
   top: 50px;
-  left: 70px;
+  left: 80px;
   font-size: 35px;
 }
 h1{
@@ -133,10 +133,10 @@ h1{
   color: white !important;
 }
 .sulawesi h1{
-  left: 35px !important;
+  left: 40px !important;
 }
 .kalimantan h1{
-  left: 7px !important;
+  left: 50px !important;
 }
 
 .btn-category{
