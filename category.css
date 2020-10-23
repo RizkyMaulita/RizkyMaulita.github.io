@@ -462,3 +462,63 @@
 .pantaiTanjungBira th{
   color: #f88948;
 }
+
+/* ----Paket Spesial---- */
+.spesial{
+  margin-top: 100px;
+  position: relative;
+}
+.spesial .judul{
+  margin-bottom: 70px;
+}
+.java-bali{
+  margin-top: 30px;
+  width: 100%;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.boxSpesial{
+  color: #0f3057;
+  text-align: center;
+}
+.boxSpesial h1{
+  color: #fc8f50 !important;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.boxSpesial ul li{
+  color: #0f3057 !important;
+  margin-bottom: 10px;
+  justify-content: center;
+  color: #4272ac !important;
+}
+.boxSpesial h2{
+  text-align: center;
+  margin-top: 30px;
+  color: #0f3057;
+  margin-bottom: 20px;
+}
+.boxSpesial th{
+  color: #fc8f50;
+}
+.btn-special-order{
+  margin-top: 50px !important;
+  width: 70% !important;
+  float: left !important;
+  margin-left: 50px !important;
+}
+.btn-special-order a{
+  color: white !important;
+}
+.baliSpesial h1{
+  color: #0f3057 !important;
+  margin-bottom: 60px;
+}
+.javaSpesial h1{
+  margin-bottom: 60px;
+}
+.sulawesiSpesial h1{
+  color: #0f3057 !important;
+}

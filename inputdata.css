@@ -12,7 +12,7 @@
   background-color: #ffae7e;
 }
 .tiket{
-  margin-top: 100px;
+  margin-top: 150px;
   color: #0f3057;
 }
 .tiket h1{
@@ -38,4 +38,54 @@
 #total{
   /* padding-top: 15px; */
   padding-left: 100px; 
+}
+.btn-other{
+  margin-top: 20px;
+  width: 40%;
+  height: 40px;
+  background-color: #ffae7e;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: 500;
+  float: left;
+  margin-left: 30px;
+}
+.btn-other:hover{
+  background-color: #70adb5;
+}
+.btn-special{
+  margin-top: 20px;
+  width: 40%;
+  height: 40px;
+  background-color: #ffae7e;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: 500;
+  float: right;
+  margin-right: 30px;
+}
+.btn-special:hover{
+  background-color: #70adb5;
+}
+.btn-other a{
+  color: white !important;
+  font-weight: bold;
+}
+.btn-special a{
+  color: white !important;
+  font-weight: bold;
+}
+.other h2{
+  text-align: center;
+  margin-top: 20px;
+  color: #26558f;
+}
+.other h3{
+  text-align: center;
+  color: #4272ac;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.other{
+  margin-bottom: -130px;
 }
