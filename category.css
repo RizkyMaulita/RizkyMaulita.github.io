@@ -379,7 +379,7 @@
   text-align: right;
 }
 .bunaken .gambar{
-  background-image: url(img/Uluwatu.jpeg);
+  background-image: url(img/S-Bunaken);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -397,7 +397,7 @@
   color: #f88948;
 }
 .tanaToraja .gambar{
-  background-image: url(img/Nusa\ Penida.jpeg);
+  background-image: url(img/S-TanaToraja.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -430,7 +430,7 @@
   color: #f88948;
 }
 .pantaiTanjungBira .gambar{
-  background-image: url(img/TanahLot.jpeg);
+  background-image: url(img/S.TanjungBira.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
