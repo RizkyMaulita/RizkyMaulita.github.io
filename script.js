@@ -90,7 +90,7 @@ form.addEventListener('submit',(e)=>{
   }else if(!checkPassword(password.value)){
     alert('Password must have more than 6 characters and must contain characters alphabet, number and symbol')
   }else if(!checkEmail(email.value)){
-    alert(`For sign up, using email with domain .com or .org or co.id and please make sure your email doesn't contain space and username in your email more than 3 characters`)
+    alert(`For sign up, using email with domain .com or .org or co.id and Please make sure your email doesn't contain space and username in your email more than 3 characters`)
   }
   e.preventDefault()
 })
