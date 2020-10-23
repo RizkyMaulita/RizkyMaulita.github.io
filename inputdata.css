@@ -28,11 +28,12 @@
   margin-top: 10px;
   margin-bottom: 30px;
   height: 35px;
-  width: 250px;
+  width: 320px;
   font-size: 15px;
 }
 .tiket input{
   margin-bottom: 10px;
+  width: 300px;
 }
 #total{
   /* padding-top: 15px; */

@@ -4,7 +4,7 @@
   position: relative;
 }
 .detailJava .judul{
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 .container-trip-java{
   margin-top: 30px;
@@ -16,15 +16,15 @@
 .box{
   color: #0f3057;
   border-radius: 5px;
-  /* border: 2px dodgerblue solid; */
 }
 .bromo .isi{
   padding: 10px;
 }
 .bromo p{
-  margin-top: 15px;
-  text-align: justify;
-  text-indent: 2cm;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  /* text-indent: 2cm; */
 }
 .bromo h6{
   padding-top: 40px;
@@ -61,12 +61,13 @@
   padding: 10px;
 }
 .jogja p{
+  padding: 10px;
   margin-top: 15px;
-  text-align: justify;
-  text-indent: 2cm;
+  text-align: center;
+  /* text-indent: 2cm; */
 }
 .jogja h6{
-  padding-top: 60px;
+  padding-top: 45px;
   font-weight: 100;
   font-style: italic;
   text-align: right;
@@ -94,9 +95,10 @@
   padding: 10px;
 }
 .bandung p{
+  padding: 10px;
   margin-top: 15px;
-  text-align: justify;
-  text-indent: 2cm;
+  text-align: center;
+  /* text-indent: 2cm; */
 }
 .bandung h6{
   padding-top: 60px;
@@ -118,84 +120,345 @@
 
 /* ----Kalimantan---- */
 .detailKalimantan{
-  margin-top: 200px;
+  margin-top: 150px;
   position: relative;
 }
-.pulauDerawan{
-  margin-top: 100px;
-  position: relative;
-  /* position: absolute; */
-  width: 100%;
-  height: 300px;
-  background-color: red;
+.detailKalimantan .judul{
+  margin-bottom: 70px;
 }
-.pulauKakaban{
-  margin-top: 10px;
-  /* position: absolute; */
+.container-trip-kalimantan{
+  margin-top: 30px;
   width: 100%;
   height: 300px;
-  background-color: blue;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
 }
-.danauLabuan{
-  margin-top: 10px;
-  /* position: absolute; */
-  width: 100%;
-  height: 300px;
-  background-color: chartreuse;
+.pulauDerawan .isi{
+  padding: 10px;
+}
+.pulauDerawan p{
+  padding: 10px;
+  margin-top: 15px;
+  text-align: center;
+  /* text-indent: 2cm; */
+}
+.pulauDerawan h6{
+  padding-top: 100px;
+  font-weight: 100;
+  font-style: italic;
+  text-align: right;
+}
+.pulauDerawan .gambar{
+  background-image: url(img/K-Derawan.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 0 !important;
+}
+.pulauDerawan .harga{
+  padding: 10px;
+}
+.pulauDerawan h2{
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.pulauDerawan th{
+  color: #f88948;
+}
+.pulauKakaban .gambar{
+  background-image: url(img/Kakaban\ Kalimantan.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 0 !important;
+}
+.pulauKakaban .isi{
+  padding: 10px;
+}
+.pulauKakaban p{
+  padding: 10px;
+  margin-top: 15px;
+  text-align: center;
+  /* text-indent: 2cm; */
+}
+.pulauKakaban h6{
+  padding-top: 100px;
+  font-weight: 100;
+  font-style: italic;
+  text-align: right;
+}
+.pulauKakaban .harga{
+  padding: 10px;
+}
+.pulauKakaban h2{
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.pulauKakaban th{
+  color: #f88948;
+}
+.danauLabuan .gambar{
+  background-image: url(img/K-LabuanCermin.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 0 !important;
+}
+.danauLabuan .isi{
+  padding: 10px;
+}
+.danauLabuan p{
+  padding: 10px;
+  margin-top: 15px;
+  text-align: center;
+  /* text-indent: 2cm; */
+}
+.danauLabuan h6{
+  padding-top: 60px;
+  font-weight: 100;
+  font-style: italic;
+  text-align: right;
+}
+.danauLabuan .harga{
+  padding: 10px;
+}
+.danauLabuan h2{
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.danauLabuan th{
+  color: #f88948;
 }
 
 /* ----Bali----- */
 .detailBali{
-  margin-top: 500px;
+  margin-top: 150px;
   position: relative;
 }
-.uluwatu{
-  margin-top: 100px;
-  position: relative;
-  /* position: absolute; */
-  width: 100%;
-  height: 300px;
-  background-color: red;
+.detailBali .judul{
+  margin-bottom: 70px;
 }
-.nusaPenida{
-  margin-top: 10px;
-  /* position: absolute; */
+.container-trip-bali{
+  margin-top: 30px;
   width: 100%;
   height: 300px;
-  background-color: blue;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
 }
-.tanahLot{
-  margin-top: 10px;
-  /* position: absolute; */
-  width: 100%;
-  height: 300px;
-  background-color: chartreuse;
+.uluwatu .isi{
+  padding: 10px;
+}
+.uluwatu p{
+  padding: 10px;
+  margin-top: 15px;
+  text-align: center;
+  /* text-indent: 2cm; */
+}
+.uluwatu h6{
+  padding-top: 100px;
+  font-weight: 100;
+  font-style: italic;
+  text-align: right;
+}
+.uluwatu .gambar{
+  background-image: url(img/Uluwatu.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 0 !important;
+}
+.uluwatu .harga{
+  padding: 10px;
+}
+.uluwatu h2{
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.uluwatu th{
+  color: #f88948;
+}
+.nusaPenida .gambar{
+  background-image: url(img/Nusa\ Penida.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 0 !important;
+}
+.nusaPenida .isi{
+  padding: 10px;
+}
+.nusaPenida p{
+  padding: 10px;
+  margin-top: 15px;
+  text-align: center;
+  /* text-indent: 2cm; */
+}
+.nusaPenida h6{
+  padding-top: 135px;
+  font-weight: 100;
+  font-style: italic;
+  text-align: right;
+}
+.nusaPenida .harga{
+  padding: 10px;
+}
+.nusaPenida h2{
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.nusaPenida th{
+  color: #f88948;
+}
+.tanahLot .gambar{
+  background-image: url(img/TanahLot.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 0 !important;
+}
+.tanahLot .isi{
+  padding: 10px;
+}
+.tanahLot p{
+  padding: 10px;
+  margin-top: 15px;
+  text-align: center;
+  /* text-indent: 2cm; */
+}
+.tanahLot h6{
+  padding-top: 120px;
+  font-weight: 100;
+  font-style: italic;
+  text-align: right;
+}
+.tanahLot .harga{
+  padding: 10px;
+}
+.tanahLot h2{
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.tanahLot th{
+  color: #f88948;
 }
 
 /* ----Sulawesi---- */
 .detailSulawesi{
-  margin-top: 500px;
+  margin-top: 150px;
   position: relative;
 }
-.bunaken{
-  margin-top: 100px;
-  position: relative;
-  /* position: absolute; */
-  width: 100%;
-  height: 300px;
-  background-color: red;
+.detailSulawesi .judul{
+  margin-bottom: 50px;
 }
-.tanaToraja{
-  margin-top: 10px;
-  /* position: absolute; */
+.container-trip-sulawesi{
+  margin-top: 30px;
   width: 100%;
   height: 300px;
-  background-color: blue;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
 }
-.pantaiTanjungBira{
-  margin-top: 10px;
-  /* position: absolute; */
-  width: 100%;
-  height: 300px;
-  background-color: chartreuse;
+.bunaken .isi{
+  padding: 10px;
+}
+.bunaken p{
+  padding: 10px;
+  margin-top: 15px;
+  text-align: center;
+  /* text-indent: 2cm; */
+}
+.bunaken h6{
+  padding-top: 20px;
+  font-weight: 100;
+  font-style: italic;
+  text-align: right;
+}
+.bunaken .gambar{
+  background-image: url(img/Uluwatu.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 0 !important;
+}
+.bunaken .harga{
+  padding: 10px;
+}
+.bunaken h2{
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.bunaken th{
+  color: #f88948;
+}
+.tanaToraja .gambar{
+  background-image: url(img/Nusa\ Penida.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 0 !important;
+}
+.tanaToraja .isi{
+  padding: 10px;
+}
+.tanaToraja p{
+  padding: 10px;
+  margin-top: 15px;
+  text-align: center;
+  /* text-indent: 2cm; */
+}
+.tanaToraja h6{
+  padding-top: 60px;
+  font-weight: 100;
+  font-style: italic;
+  text-align: right;
+}
+.tanaToraja .harga{
+  padding: 10px;
+}
+.tanaToraja h2{
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.tanaToraja th{
+  color: #f88948;
+}
+.pantaiTanjungBira .gambar{
+  background-image: url(img/TanahLot.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 0 !important;
+}
+.pantaiTanjungBira .isi{
+  padding: 10px;
+}
+.pantaiTanjungBira p{
+  padding: 10px;
+  margin-top: 15px;
+  text-align: center;
+  /* text-indent: 2cm; */
+}
+.pantaiTanjungBira h6{
+  padding-top: 60px;
+  font-weight: 100;
+  font-style: italic;
+  text-align: right;
+}
+.pantaiTanjungBira .harga{
+  padding: 10px;
+}
+.pantaiTanjungBira h2{
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.pantaiTanjungBira th{
+  color: #f88948;
 }
